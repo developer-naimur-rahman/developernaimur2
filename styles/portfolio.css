@@ -158,8 +158,9 @@ font-weight: bold;
 /* what i do section styles */
 
 .skills-container{
-    margin: 50px 230px;
+    margin: 50px 230px 50px 230px;
     display: flex;
+    
 }
 
 .skill{
