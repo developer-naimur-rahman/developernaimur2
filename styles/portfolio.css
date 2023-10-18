@@ -100,7 +100,7 @@ margin-bottom: 30px;
 }
 
 
-.about-me {
+.about {
 width: 1140px;
 height: 550px;
 flex-shrink: 0;
@@ -131,4 +131,26 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+}
+
+.about-info-container{
+    display:flex;
+    text-align: center;
+    margin: 25px;
+    align-items: center;
+    margin: auto;justify-content:space-around ;
+}
+
+.about .info-title{
+    font-size:20px;
+    color:#757575; 
+}
+.about .info-description{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+font-weight: bold;
 }
