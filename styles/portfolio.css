@@ -99,7 +99,7 @@ line-height: 30px; /* 166.667% */
 margin-bottom: 30px;
 }
 
-
+/* About section styles */
 .about {
 width: 1140px;
 height: 550px;
@@ -154,3 +154,90 @@ font-weight: 700;
 line-height: 30px;
 font-weight: bold;
 }
+
+/* what i do section styles */
+
+.skills-container{
+    margin: 50px 230px;
+    display: flex;
+}
+
+.skill{
+    margin: 24px;
+    align-items: center;
+    height: 377px;
+    width: 266px;
+    display:block;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.188);
+}
+
+.skill-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    padding: 30px;
+}
+
+.skill-description{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 201px;
+    text-align: justify;
+    padding: 20px 30px 33px 33px;
+}
+/* Resume styles */
+.summery{
+    margin: 230px;
+
+}
+.resume-content{
+    display: flex;
+    gap:40px;
+
+.resume-title{
+    padding-top: 113px;
+    
+}
+.resume-item .title{
+padding-top: 30px;
+color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.resume-item .sub-title{
+    padding-top: 10px;
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.resume-item .description{
+    padding-top: 20px;
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
